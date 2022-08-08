@@ -3,11 +3,12 @@
 import TodoFeature from "./features/Todo";
 import AlbumFeature from "./features/Album";
 import React from "react";
+import ColorBox from "./components/colorBox";
 
 function App() {
   return (
     <div className="App">
-      <AlbumFeature />
+      <ColorBox />
     </div>
   );
 }
