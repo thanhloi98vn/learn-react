@@ -8,26 +8,29 @@ function AlbumFeature(props) {
   const albumList = [
     {
       id: 1,
-      name: "Remix Việt Mới Nhất",
+      name: "Nhạc Cho Chủ Nhật",
       thumbnailUrl:
-        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/3/8/c/5/38c59549cebcd47edfbbe50dd6d6bf04.jpg",
+        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/3/9/f/3/39f3e424418cc15d3703e2810ee43b8c.jpg",
+      title: "Chủ nhật thư giản với giai điệu Lofi",
     },
     {
       id: 2,
-      name: "Nhạc Trẻ Vinahouse",
+      name: "V-Pop Debut Song",
       thumbnailUrl:
-        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/f/e/5/d/fe5dfebabeb63934a45bb8240db7e1ea.jpg",
+        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/7/f/6/8/7f68474f9e8b27d49b99ae119c7b0ca1.jpg",
+      title: "Nhũng bản hit mới",
     },
     {
       id: 3,
-      name: "Top Hits Remix",
+      name: "Cà phê cùng nhạc phim",
       thumbnailUrl:
-        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/d/5/7/6/d5762221d5031c280bd1b127dcd2463d.jpg",
+        "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/8/4/5/c/845c3e909e0fbfe6ee3b20d13ffd73fa.jpg",
+      title: "Hồi tưởng những thước phim",
     },
   ];
   return (
     <div>
-      <h2>Có thể bạn sẽ thích</h2>
+      <h2>Có thể bạn thích </h2>
       <AlbumList albumList={albumList} />
     </div>
   );
